@@ -1,0 +1,25 @@
+# LangChain Core
+langchain
+langchain-core
+
+
+# OpenAI Integration
+langchain-openai
+
+
+# chroma vectorspace
+langchain-chroma
+
+
+
+# Environment Variable Management
+python-dotenv
+
+# Machine Learning Utilities
+numpy
+pandas
+bs4
+requests
+
+# User interface 
+gradio
