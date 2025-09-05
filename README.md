@@ -2,7 +2,7 @@ First i created a folder named Chatbot then created a virtual environment (venv)
 neccessary libraries and framework and run the command pip install -r requirements.txt in terminal. Also, i created .env file for API keys. Since I have already openai model credits so keep OPENAI_API_KEY="sk-....". 
 We can also use hugging face api and impelement model using langchain_huggingface component.
 
-Now, i loaded the dataset "bw_courses - Sheet1.csv" using pandas then converted Released Languages column as Hindi for 6, Kannada for 7, Malayalam for 11, Tamil for 20, Telugu for 21, English for 24. Then converted 
+Now, i loaded the dataset "data.csv" using pandas then converted Released Languages column as Hindi for 6, Kannada for 7, Malayalam for 11, Tamil for 20, Telugu for 21, English for 24. Then converted 
 this pandas dataframent into document format, output same as CSVLoader i.e docs[0] as row 1, docs[1] as row 2 and so on. which are individually shown in language_conversion.ipynb file only for understanding purpose.
 
 I imported necessary LangChain components in 1.RAG_based_chatbot.py file as ChatOpenAI for gpt-4 model, OpenAIEmbeddings to convert text into numeric vectors, text_splitter(RecurciveCharacter), prompts as 
